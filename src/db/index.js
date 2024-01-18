@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 require('dotenv').config()
 const username = process.env.USERR
 const password = process.env.PASSWORD
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.hbh3oen.mongodb.net/demo4`)
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.hbh3oen.mongodb.net/Stacks`)
 
 const questionSchema = mongoose.Schema({
     page_no: Number,
